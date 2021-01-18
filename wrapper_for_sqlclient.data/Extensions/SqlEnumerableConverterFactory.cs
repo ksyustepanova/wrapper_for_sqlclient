@@ -7,7 +7,7 @@ using System.Data;
 namespace wrapper_for_sqlclient.data.Extensions
 {
 
-    public class FreeTimeSqlEnumerableConverterFactory
+    public class SqlEnumerableConverterFactory
     {
         public static IEnumerable<SqlEnumerableParameterConverter> Get()
         {
